@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charset</title>
+<style>
+.grid{  
+    display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.box{  
+     gap: 20px;
+display: grid;
+}
+ .box-span{ 
+    display: grid;
+    border-radius: 20px;
+     grid-area: auto;
+     box-shadow: 70%;
+ }
+
+
+
+
+</style>
+</head>
+<body>
+    
+<h1>spanning box</h1>
+<div class="example">
+<div class="grid grid-box">  
+       <div class="box box- span2">1 span 2 column</div>
+         <div class="box box-span">1 item</div>
+           <div class="box box-span">2 item</div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
