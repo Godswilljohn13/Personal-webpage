@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout for Webpage</title>
+<style>
+.page-grid {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "nav aside"
+    "footer footer";
+  grid-template-columns: 200px 1fr;
+  gap: 10px;
+}
+
+header   { grid-area: header; background: #f8b400; padding: 10px; }
+nav      { grid-area: nav; background: #00b894; padding: 10px; }
+main     { grid-area: main; background: #74b9ff; padding: 10px; }
+aside    { grid-area: aside; background: #a29bfe; padding: 10px; }
+footer   { grid-area: footer; background: #636e72; padding: 10px; }
+</style>
+</head>
+<body>
+   <div class="page-grid">
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Main Content</main>
+  <aside>Sidebar</aside>
+  <footer>Footer</footer>
+</div> 
+</body>
+</html>
