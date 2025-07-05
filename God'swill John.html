@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="Homework.html">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>God'swill John</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Hello, I'm God'swill John</h1>
+    <p>I’m a developer who loves building digital experiences. this what i love</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <img src="css/istockphoto-1140106116-612x612.jpg" alt="This is me" />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, asperiores distinctio labore libero maiores fugiat voluptatibus, sed rerum quisquam consequuntur debitis harum eveniet quam sunt optio, animi quaerat suscipit error.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="css/OIP.webp" alt="Project 1" />
+        <div class="content">
+          <h3>Project One</h3>
+          <p>For a  good fondation</p>
+          <a href="Homework.html">Learn More →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="css/one-most-beautiful-countries-that-people-travel-kasmir_924629-3817.webp" alt="Project 2" />
+        <div class="content">
+          <h3>Project Two</h3>
+          <p>To create an effective and firm</p>
+          <a href="Homework.html">Learn More →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="css/istockphoto-1388731799-1024x1024.jpg" alt="Project 3" />
+        <div class="content">
+          <h3>Project Three</h3>
+          <p>To unlock hiding talent</p>
+          <a href="Homework.html">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! so much')">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      
+    </form>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> God'swill John. All rights reserved. Terms and 
+    Conditions</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
